@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
 .navbar {
   display: flex;
   align-content: center;
@@ -12,7 +19,6 @@
 
 .navbar li {
   margin: 0 5px;
-
   font-size: 0.8em;
 }
 
@@ -69,70 +75,72 @@
   left: 50%;
 }
 
-  
-  .story-header {
-    position: relative;
-    width: 100%;
-    height: 50vw;
-    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle-796x449.jpg');
-    background-size: cover;
-    margin-bottom: 8px;
+.story-header {
+  position: relative;
+  width: 100%;
+  height: 50vw;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle-796x449.jpg");
+  background-size: cover;
+  margin-bottom: 8px;
+}
 
-  }
-  
-  
-  .story_img {
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  
-  .story-block h2 {
-    color: white;
-  padding-top: 110px;
-    font-size: 20px;
-    line-height: 1em;
-  }
-  
-  .story-block ul {
-    position: absolute;
-    bottom: 2%;
-    left: 20px;
-    display: flex;
-    flex-flow: row nowrap;
-    color: gray;
-   
-  }
-  
-  .icon-byline {
-    height: .8em;
-  }
-  
-  .story-block li {
-    margin-right: 10px;
-    font-size: 12px;
-  }
-  
-  .story-block a {
-    color: gray;
-  }
-  
-  .story-block {
-    position: relative;
-    z-index: 0;
-    top: 0;
-    left: 0;
+.story_img {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-    width: 100%;
-    height: 100%;
-  
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(5,5,7,1) 3%, rgba(5,5,5,0) 86%, rgba(0,0,0,0) 100%);
-  }
+.story-block h2 {
+  color: white;
+  padding-top: 140px;
+  padding-left: 10px;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+.story-block ul {
+  position: absolute;
+  bottom: 2%;
+  left: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  color: gray;
+}
+
+.icon-byline {
+  height: 0.8em;
+}
+
+.story-block li {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.story-block a {
+  color: gray;
+}
+
+.story-block {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(5, 5, 7, 1) 3%,
+    rgba(5, 5, 5, 0) 86%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
 
 .cover-story {
   float: left;
@@ -190,9 +198,8 @@
   flex-basis: 100%;
   max-width: 100%;
 }
-.cover{
-
-    padding: 7px;
+.cover {
+  padding: 7px;
 }
 .u-col-,
 .u-col- {
@@ -201,23 +208,26 @@
   position: relative;
 }
 
-h2 {
+.wrapper h2 {
   color: #f42;
   font-weight: 700;
   line-height: 1.1;
+  font-size: 30px;
+  padding: 20px;
 }
-.story-title h4 {
+.art-last h4 {
   display: block;
   margin-block-start: 1.33em;
   margin-block-end: 1.33em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  font-size: 14px;
   font-weight: bold;
 }
 
 .story-byline {
   color: #aaa;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 18px;
   padding-top: 4px;
 }
@@ -225,11 +235,6 @@ h2 {
 .story-byline li {
   display: block;
   float: left;
-}
-
-a {
-  color: black;
-  text-decoration: none;
 }
 
 .story-image {
@@ -254,90 +259,339 @@ a {
   width: 75px;
 }
 
+.art-last {
+  padding: 1px;
+}
+
 .vertical {
-    min-height: 60px;
-    position: relative;
+  min-height: 60px;
+  position: relative;
 }
 
 .u-col-xs-12 {
-    flex-basis: 100%;
-    max-width: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
 }
-.u-col-, .u-col- {
-    flex: 0 0 auto;
-    padding: 8px;
-    position: relative;
+.u-col-,
+.u-col- {
+  flex: 0 0 auto;
+  padding: 8px;
+  position: relative;
 }
 
 .story--investment {
-    background: #fffaf8;
+  background: #fffaf8;
 }
 .story-investmentCard-header {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
-
 .story-investmentCard-company-image {
-    width: 60px;
-    min-width: 60px;
-    max-width: 60px;
-    height: 60px;
-    min-height: 60px;
-    max-height: 60px;
-    margin: 10.6666666667px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  margin: 10.6666666667px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .story-investmentCard-name {
-    background: #f42;
-    color: #fff;
-    padding: 10px 6px 10.6666666667px 84px;
-    margin: 0!important;
-    font-size: 18px!important;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  background: #f42;
+  color: #fff;
+  padding: 10px 6px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 18px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .story-investmentCard-deets {
-    padding: 1px 16px 1px 84px;
-    color: #000;
-    background: rgba(255,68,34,.08);
-    margin: 0;
+  padding: 1px 16px 1px 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
 }
 
 .story-investmentCard-card {
-    padding: 16px;
-    display: block;
+  padding: 16px;
+  display: block;
 }
 
 .story--investment .story-byline {
-    margin-top: 0;
+  margin-top: 0;
 }
 .vertical .story-byline {
-    border-top: 1px solid rgba(255,68,34,.25);
-    margin-top: 1px;
-    padding-top: 1px;
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  margin-top: 1px;
+  padding-top: 1px;
 }
 .story-addPadding {
-    padding: 30px;
+  padding: 30px;
 }
 .story-byline {
-    color: #aaa;
-    font-size: 12px;
-    line-height: 18px;
-    padding-top: 1px;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 1px;
 }
 .story-investmentCard-bit {
-    padding-left: 2em;
-    position: relative;
-    font-size: 13px;
-    color: #555;
-    margin-right: 1em;
-    display: block;
-    line-height: 22px;
+  padding-left: 2em;
+  position: relative;
+  font-size: 13px;
+  color: #555;
+  margin-right: 1em;
+  display: block;
+  line-height: 22px;
 }
+
+.wrapper {
+  padding: 5px;
+}
+
+.deals-header h2 {
+    color: #f42;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Fire Sans', sans-serif;
+  }
+
+  .deals-header-more {
+    float: right;
+    line-height: 18px;
+    margin-top: 11px;
+}
+
+
+
+
+
+
+.investments {
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .deals-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+  }
+  
+  .deals-header a {
+    color: orangered;
+  }
+  
+  .card-story {
+    width: 100%;
+    height: auto;
+    background-color: #fffaf8;
+    margin: 10px;
+  }
+  
+  .card-story-wrap {
+    position: relative;
+  }
+  .card-story img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  
+  }
+  
+  .card-story img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .card-story-title {
+    width: 100%;
+    height: 40px;
+    background-color: orangered;
+    padding: 10px 20px 10px 80px;
+    color: white;
+    font-weight: bold;
+  
+  }
+  
+  .card-story-name {
+    width: 100%;
+    height: 60px;
+    background-color: #ffebe7;
+    padding: 10px 20px 10px 80px;
+    color: black;
+  }
+  
+  .card-story-name h5 {
+    color: gray;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+
+
+  .card-story-content {
+    width: 100%;
+    height: auto;
+    padding: 25px 20px 10px;
+    border-bottom: 1px solid orange;
+  }
+  .card-story-content a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .card-story-content span {
+    font-weight: 300;
+    font-size: 0.8em;
+    padding-left: 10px;
+  }
+  
+  .card-story__footer {
+    padding: 20px;
+    font-size: 0.8em;
+    font-weight: 300;
+  }
+  
+  .card-story__footer span {
+    font-weight: inherit;
+    font-size: inherit;
+    color: gray;
+  }
+
+  .inv-block{
+display: grid;
+
+  }
+
+ 
+.popular {
+    padding: 50px;
+  }
+  .sections {
+    min-width: 350px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    margin-top: 0;
+  }
+  
+  .most-popular {
+    min-width: 300px;
+    width: 100%;
+    height: 350px;
+    background-image: url("../images/Methods-App-540x270.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    position: relative;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .most-popular--gradient {
+    background-image: linear-gradient(-180deg, rgba(20, 20, 20, 0.2) 0%,rgba(20,20,20,0.8) 80%, rgba(20,20,20,1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .most-popular__title {
+    position: absolute;
+    bottom: 30px;
+    width: calc(100%-40px);
+    height: auto;
+    max-height: 150px;
+    overflow: hidden;
+  }
+  
+  .m-p__title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .m-p__section {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  .most-popular__byline {
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .most-popular__byline span {
+    font-size: 0.6em;
+    color: gray;
+    margin-right: 10px;
+  }
+  
+  .latest-popular {
+    width: 100%;
+    height: 100px;
+    padding: 20px 120px 20px 20px;
+    background-color: #fff4f2;
+    overflow: hidden;
+    color: orangered;
+    position: relative;
+    margin: 2px 0;
+  
+  }
+  
+  .latest-popular__section {
+    font-weight: lighter;
+    margin: 3px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+  
+  }
+  
+  .headline-popular {
+    font-size: 0.8em;
+    padding: 10px 2px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .headline-popular::before {
+    content: "\2022";
+    color: orangered;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0;
+  
+  }
+  
+  .latest-popular__img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('../images/Charby-Edge-Pro-540x270.jpg');
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .popular-title {
+    color: #f42;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Fire Sans', sans-serif;
+  }
+  

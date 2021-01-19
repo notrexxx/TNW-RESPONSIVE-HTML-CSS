@@ -76,65 +76,25 @@
     height: 50vw;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle-796x449.jpg');
     background-size: cover;
+    margin-bottom: 8px;
+
   }
   
-  .story__logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-  
-    width: 70%;
-    height: auto;
-    padding: 20px;
-    display: none;
-  }
-  
-  .story__logo img {
-    width: 80%;
-    height: auto;
-  }
   
   .story_img {
     position: absolute;
     z-index: 10;
     top: 0;
     left: 0;
-  
     width: 100%;
     height: 100%;
   }
   
-  .story__header {
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-  
-    width: 100%;
-    height: auto;
-    max-height: 60%;
-    padding: 20px;
-  }
-  
-  .story__header__title {
-    position: absolute;
-    bottom: 30px;
-    height: auto;
-    width: calc(100%-20px);
-    overflow: hidden;
-    padding: 10px 0;
-  }
-  
-  .s-h__section {
-    color: white;
-  
-    font-size: 1em;
-    font-weight: bold;
-  }
   
   .story-block h2 {
     color: white;
-  
-    font-size: 2em;
+  padding-top: 110px;
+    font-size: 20px;
     line-height: 1em;
   }
   
@@ -142,11 +102,10 @@
     position: absolute;
     bottom: 2%;
     left: 20px;
-  
     display: flex;
     flex-flow: row nowrap;
-  
     color: gray;
+   
   }
   
   .icon-byline {
@@ -155,6 +114,7 @@
   
   .story-block li {
     margin-right: 10px;
+    font-size: 12px;
   }
   
   .story-block a {
@@ -166,18 +126,13 @@
     z-index: 0;
     top: 0;
     left: 0;
-  
+
     width: 100%;
     height: 100%;
   
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(5,5,7,1) 3%, rgba(5,5,5,0) 86%, rgba(0,0,0,0) 100%);
   }
-  
-  
-
-
-
 
 .cover-story {
   float: left;
@@ -207,7 +162,6 @@
   bottom: 4px;
   left: 4px;
   padding: 14px 12px;
-
   right: 4px;
   z-index: 3;
 }
@@ -236,7 +190,10 @@
   flex-basis: 100%;
   max-width: 100%;
 }
+.cover{
 
+    padding: 7px;
+}
 .u-col-,
 .u-col- {
   flex: 0 0 auto;

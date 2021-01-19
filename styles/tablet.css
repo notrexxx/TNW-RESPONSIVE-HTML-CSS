@@ -1,0 +1,400 @@
+.navbar {
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    padding: 5px 20px;
+    color: gray;
+    background-color: black;
+  }
+  
+  .navbar li {
+    margin: 0 5px;
+  
+    font-size: 0.8em;
+  }
+  
+  .navbar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  
+  .navbar-ul-end {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
+  
+  .navbar-sticky {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px 10px 20px;
+    color: gray;
+    background-color: whitesmoke;
+    box-shadow: 0 20px 32px lightgray;
+  }
+  
+  .navbar-sticky ul {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .navbar-sticky li {
+    display: none;
+    margin-right: 1em;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  
+  .navbar-sticky-img {
+    position: relative;
+    top: 0;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    border-left: 2px solid lightgray;
+  }
+  
+  .navbar-sticky-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .story-header {
+    position: relative;
+    width: 100%;
+    height: 50vw;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle-796x449.jpg");
+    background-size: cover;
+  }
+  
+  .story__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    display: none;
+  }
+  
+  .story__logo img {
+    width: 80%;
+    height: auto;
+  }
+  
+  .story_img {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .story__header {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: 60%;
+    padding: 20px;
+  }
+  
+  .story__header__title {
+    position: absolute;
+    bottom: 30px;
+    height: auto;
+    width: calc(100%-20px);
+    overflow: hidden;
+    padding: 10px 0;
+  }
+  
+  .s-h__section {
+    color: white;
+  
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .story-block h2 {
+    color: white;
+    font-size: 2em;
+    line-height: 1em;
+  }
+  .story-block header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .story-block ul {
+    display: flex;
+    flex-flow: row nowrap;
+    color: gray;
+  }
+  
+  .icon-byline {
+    height: 0.8em;
+  }
+  
+  .story-block li {
+    margin-right: 10px;
+  }
+  
+  .story-block a {
+    color: gray;
+  }
+  
+  .story-block {
+    position: relative;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      0deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(5, 5, 7, 1) 3%,
+      rgba(5, 5, 5, 0) 86%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  
+  .cover-story {
+    float: left;
+    overflow: hidden;
+    padding: 4px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .cover-image,
+  .cover-trigger {
+    bottom: 4px;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  }
+  
+  .cover-image {
+    background-color: #000;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+  }
+  
+  .cover-header {
+    bottom: 4px;
+    left: 4px;
+    padding: 14px 12px;
+    right: 4px;
+    z-index: 3;
+  }
+  
+  .cover-title {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  
+  .cover .distraction-title,
+  .cover h2 {
+    margin-bottom: 0.25em;
+    font-size: revert;
+  }
+  
+  .cover {
+    display: grid;
+    grid-template-areas:
+      "main main top"
+      "main main bottom";
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .sh-1 {
+    grid-area: main;
+    height: 100%;
+  }
+  .sh-2 {
+    grid-area: top;
+    height: 20vh;
+  }
+  .sh-3 {
+    grid-area: bottom;
+    height: 20vh;
+  }
+  .story--smallMobile {
+    min-height: 72px;
+    padding-left: 88px;
+    position: relative;
+  }
+  .u-col-xs-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  
+  .u-col-,
+  .u-col- {
+    flex: 0 0 auto;
+    padding: 8px;
+    position: relative;
+  }
+  
+  h2 {
+    color: #f42;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .story-title h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  
+  .story-byline {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 4px;
+  }
+  
+  .story-byline li {
+    display: block;
+    float: left;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .story-image {
+    background-color: #000;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-top: 50%;
+    width: 100%;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  
+  .story--smallMobile .story-image {
+    left: 0;
+    padding-top: 75px;
+    position: absolute;
+    top: 0;
+    width: 75px;
+  }
+  
+  .vertical {
+    min-height: 60px;
+    position: relative;
+  }
+  
+  .u-col-xs-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .u-col-,
+  .u-col- {
+    flex: 0 0 auto;
+    padding: 8px;
+    position: relative;
+  }
+  
+  .story--investment {
+    background: #fffaf8;
+  }
+  .story-investmentCard-header {
+    position: relative;
+    display: block;
+  }
+  
+  .story-investmentCard-company-image {
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    margin: 10.6666666667px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .story-investmentCard-name {
+    background: #f42;
+    color: #fff;
+    padding: 10px 6px 10.6666666667px 84px;
+    margin: 0 !important;
+    font-size: 18px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .story-investmentCard-deets {
+    padding: 1px 16px 1px 84px;
+    color: #000;
+    background: rgba(255, 68, 34, 0.08);
+    margin: 0;
+  }
+  
+  .story-investmentCard-card {
+    padding: 16px;
+    display: block;
+  }
+  
+  .story--investment .story-byline {
+    margin-top: 0;
+  }
+  .vertical .story-byline {
+    border-top: 1px solid rgba(255, 68, 34, 0.25);
+    margin-top: 1px;
+    padding-top: 1px;
+  }
+  .story-addPadding {
+    padding: 30px;
+  }
+  .story-byline {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 1px;
+  }
+  .story-investmentCard-bit {
+    padding-left: 2em;
+    position: relative;
+    font-size: 13px;
+    color: #555;
+    margin-right: 1em;
+    display: block;
+    line-height: 22px;
+  }

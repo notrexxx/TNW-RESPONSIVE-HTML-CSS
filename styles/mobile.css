@@ -5,74 +5,67 @@
   font-size: 16px;
 }
 
-.navbar {
-  display: flex;
-  align-content: center;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  width: 100%;
-  height: 30px;
-  padding: 5px 20px;
-  color: gray;
-  background-color: black;
-}
 
-.navbar li {
-  margin: 0 5px;
-  font-size: 0.8em;
-}
-
-.navbar ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-}
-
-.navbar-ul-end {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-}
-
-.navbar-sticky {
-  display: flex;
-  align-items: center;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  width: 100%;
-  height: 40px;
-  padding: 10px 10px 10px 20px;
-  color: gray;
-  background-color: whitesmoke;
-  box-shadow: 0 20px 32px lightgray;
-}
-
-.navbar-sticky ul {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.navbar-sticky li {
-  display: none;
-  margin-right: 1em;
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-weight: bold;
-}
-
-.navbar-sticky-img {
-  position: relative;
+.nav {
+  background: #fff;
+  box-shadow: 0 0 32px rgba(0,0,0,.15);
+  height: 48px;
+  left: 0;
+  position: fixed;
+  right: 0;
   top: 0;
-  right: -10px;
-  width: 40px;
-  height: 40px;
-  border-left: 2px solid lightgray;
+  z-index: 10;
 }
 
-.navbar-sticky-img img {
+.nav-logo {
+  left: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+}
+
+.nav-follow, .nav-sections, .nav-sections-dropdown, .nav-tnw {
+  display: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+.nav-mob, .nav-mob h5 {
+  color: #fff;
+}
+.nav-mob {
+  transition: .4s;
+  transform: translateX(100%);
+  background: linear-gradient(to bottom right,#c09,#f42 85%);
+  height: 100vh;
+  left: 0;
+  padding: 48px 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  will-change: transform;
+  z-index: 997;
+}
+
+.nav-icons {
+  float: right;
+}
+
+.nav-follow, .nav-sections, .nav-sections-dropdown, .nav-tnw {
+  display: none;
+}
+
+.nav-logo>a, .post-body a .nav-logo>strong {
+  background-color: #000;
+  display: block;
+  height: 48px;
+  padding: 16px 20px;
+  width: 106px;
+  will-change: height;
+}
+
+.nav-logo-popout {
+  display: none;
 }
 
 .story-header {
@@ -356,242 +349,273 @@
 }
 
 .deals-header h2 {
-    color: #f42;
-    font-weight: 700;
-    line-height: 1.1;
-    font-size: 30px;
-    padding: 20px;
-    font-family: 'Fire Sans', sans-serif;
-  }
-
-  .deals-header-more {
-    float: right;
-    line-height: 18px;
-    margin-top: 11px;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Fire Sans", sans-serif;
 }
 
-
-
-
-
+.deals-header-more {
+  float: right;
+  line-height: 18px;
+  margin-top: 11px;
+}
 
 .investments {
-    margin: auto;
-    padding: 20px;
-  }
-  
-  .deals-header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 20px;
-  }
-  
-  .deals-header a {
-    color: orangered;
-  }
-  
-  .card-story {
-    width: 100%;
-    height: auto;
-    background-color: #fffaf8;
-    margin: 10px;
-  }
-  
-  .card-story-wrap {
-    position: relative;
-  }
-  .card-story img {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  
-  }
-  
-  .card-story img {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .card-story-title {
-    width: 100%;
-    height: 40px;
-    background-color: orangered;
-    padding: 10px 20px 10px 80px;
-    color: white;
-    font-weight: bold;
-  
-  }
-  
-  .card-story-name {
-    width: 100%;
-    height: 60px;
-    background-color: #ffebe7;
-    padding: 10px 20px 10px 80px;
-    color: black;
-  }
-  
-  .card-story-name h5 {
-    color: gray;
-    font-size: 0.8em;
-    margin-top: 5px;
-  }
+  margin: auto;
+  padding: 20px;
+}
 
+.deals-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
 
-  .card-story-content {
-    width: 100%;
-    height: auto;
-    padding: 25px 20px 10px;
-    border-bottom: 1px solid orange;
-  }
-  .card-story-content a {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .card-story-content span {
-    font-weight: 300;
-    font-size: 0.8em;
-    padding-left: 10px;
-  }
-  
-  .card-story__footer {
-    padding: 20px;
-    font-size: 0.8em;
-    font-weight: 300;
-  }
-  
-  .card-story__footer span {
-    font-weight: inherit;
-    font-size: inherit;
-    color: gray;
-  }
+.deals-header a {
+  color: orangered;
+}
 
-  .inv-block{
-display: grid;
+.card-story {
+  width: 100%;
+  height: auto;
+  background-color: #fffaf8;
+  margin: 10px;
+}
 
-  }
+.card-story-wrap {
+  position: relative;
+}
+.card-story img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
 
- 
+.card-story img {
+  width: 60px;
+  height: 60px;
+}
+
+.card-story-title {
+  width: 100%;
+  height: 40px;
+  background-color: orangered;
+  padding: 10px 20px 10px 80px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-story-name {
+  width: 100%;
+  height: 60px;
+  background-color: #ffebe7;
+  padding: 10px 20px 10px 80px;
+  color: black;
+}
+
+.card-story-name h5 {
+  color: gray;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.card-story-content {
+  width: 100%;
+  height: auto;
+  padding: 25px 20px 10px;
+  border-bottom: 1px solid orange;
+}
+.card-story-content a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card-story-content span {
+  font-weight: 300;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+.card-story__footer {
+  padding: 20px;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.card-story__footer span {
+  font-weight: inherit;
+  font-size: inherit;
+  color: gray;
+}
+
+.inv-block {
+  display: grid;
+}
+
 .popular {
-    padding: 50px;
-  }
-  .sections {
-    min-width: 350px;
-    width: 100%;
-    height: auto;
-    list-style: none;
-    margin-top: 0;
-  }
-  
-  .most-popular {
-    min-width: 300px;
-    width: 100%;
-    height: 350px;
-    background-image: url("../images/Methods-App-540x270.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    position: relative;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  .most-popular--gradient {
-    background-image: linear-gradient(-180deg, rgba(20, 20, 20, 0.2) 0%,rgba(20,20,20,0.8) 80%, rgba(20,20,20,1) 100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .most-popular__title {
-    position: absolute;
-    bottom: 30px;
-    width: calc(100%-40px);
-    height: auto;
-    max-height: 150px;
-    overflow: hidden;
-  }
-  
-  .m-p__title {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  
-  .m-p__section {
-    font-size: 0.8em;
-    font-weight: bold;
-  }
-  
-  .most-popular__byline {
-    position: absolute;
-    bottom: 10px;
-  }
-  
-  .most-popular__byline span {
-    font-size: 0.6em;
-    color: gray;
-    margin-right: 10px;
-  }
-  
-  .latest-popular {
-    width: 100%;
-    height: 100px;
-    padding: 20px 120px 20px 20px;
-    background-color: #fff4f2;
-    overflow: hidden;
-    color: orangered;
-    position: relative;
-    margin: 2px 0;
-  
-  }
-  
-  .latest-popular__section {
-    font-weight: lighter;
-    margin: 3px;
-    text-transform: uppercase;
-    font-size: 0.8em;
-  
-  }
-  
-  .headline-popular {
-    font-size: 0.8em;
-    padding: 10px 2px;
-    border-bottom: 1px solid gray;
-  }
-  
-  .headline-popular::before {
-    content: "\2022";
-    color: orangered;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: 0;
-  
-  }
-  
-  .latest-popular__img {
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-image: url('../images/Charby-Edge-Pro-540x270.jpg');
-    height: 100px;
-    width: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  padding: 20px;
+}
+.sections {
+  min-width: 350px;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  margin-top: 0;
+}
 
-  .popular-title {
-    color: #f42;
-    font-weight: 700;
-    line-height: 1.1;
-    font-size: 30px;
-    padding: 20px;
-    font-family: 'Fire Sans', sans-serif;
-  }
-  
+.most-popular {
+  min-width: 300px;
+  width: 100%;
+  height: 350px;
+  background-image: url("../img/LatestNews/Untitled-design-2021-01-18T133210.706-516x270.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.most-popular--gradient {
+  background-image: linear-gradient(
+    -180deg,
+    rgba(20, 20, 20, 0.2) 0%,
+    rgba(20, 20, 20, 0.8) 80%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.most-popular__title {
+  position: absolute;
+  bottom: 30px;
+  width: calc(100%-40px);
+  height: auto;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.m-p__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.m-p__section {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.most-popular__byline {
+  position: absolute;
+  bottom: 10px;
+}
+
+.most-popular__byline span {
+  font-size: 0.6em;
+  color: gray;
+  margin-right: 10px;
+}
+
+.latest-popular {
+  width: 100%;
+  height: 100px;
+  padding: 20px 120px 20px 20px;
+  background-color: #fff4f2;
+  overflow: hidden;
+  color: orangered;
+  position: relative;
+  margin: 2px 0;
+}
+
+.latest-popular__section {
+  font-weight: lighter;
+  margin: 3px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.headline-popular {
+  font-size: 0.8em;
+  padding: 10px 2px;
+  border-bottom: 1px solid gray;
+}
+
+.headline-popular::before {
+  content: "\2022";
+  color: orangered;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 0;
+}
+
+.latest-popular__img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("../img/LatestNews/design-app-ui-startup-gq-480x270.png");
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popular-title {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Fire Sans", sans-serif;
+}
+
+.story--deal .story-dealPrice {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  vertical-align: baseline;
+}
+
+.story--smallMobile {
+  min-height: 72px;
+  padding-left: 88px;
+  position: relative;
+}
+
+.u-row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: 0 auto;
+
+}
+
+.story--smallMobile .story-image {
+  left: 0;
+  padding-top: 75px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.deals-wrap{
+
+  padding: 8px;
+}
+
+.story--deal .story-dealPrice-old {
+  text-decoration: line-through;
+  margin-right: 4px;
+}

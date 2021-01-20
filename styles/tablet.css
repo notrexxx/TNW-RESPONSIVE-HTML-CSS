@@ -221,31 +221,8 @@ h2 {
   font-weight: 700;
   line-height: 1.1;
 }
-.story-title h4 {
-  display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
 
-.story-byline {
-  color: #aaa;
-  font-size: 12px;
-  line-height: 18px;
-  padding-top: 4px;
-}
 
-.story-byline li {
-  display: block;
-  float: left;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
 
 .story-image {
   background-color: #000;
@@ -269,21 +246,7 @@ a {
   width: 75px;
 }
 
-.vertical {
-  min-height: 60px;
-  position: relative;
-}
 
-.u-col-xs-12 {
-  flex-basis: 100%;
-  max-width: 100%;
-}
-.u-col-,
-.u-col- {
-  flex: 0 0 auto;
-  padding: 8px;
-  position: relative;
-}
 
 .story--investment {
   background: #fffaf8;

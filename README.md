@@ -2,12 +2,13 @@
 
 # Project Name
 
-> This is a complete proyect of a replica of a New York Times article, using only CSS and HTML
+> This is a complete proyect of a replica of TheNextWeb index page, using CSS and HTML
 ![screenshot](images/app_screenshot.png)
 
 -FlexBox
 -Floats
 -Grid
+-Gradients
 
 ## Built With
 
@@ -16,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://notrexxx.github.io/NYT-HTML-CSS-Proyect/)
+[Live Demo Link](https://notrexxx.github.io/TNW-RESPONSIVE-HTML-CSS/)
 
 
 ## Authors

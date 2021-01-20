@@ -83,6 +83,10 @@
 .most-popular-title {
   font-size: 1.5em;
   font-weight: bold;
+  padding: 5px;
+}
+.most-popular-byline {
+  padding: 5px;
 }
 
 

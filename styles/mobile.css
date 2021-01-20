@@ -17,6 +17,17 @@
   z-index: 10;
 }
 
+.icons-nav{
+ padding: 10px;
+
+}
+.fa-search{
+
+  padding-right: 10px;
+}
+
+
+
 .nav-logo {
   left: 0;
   position: absolute;
@@ -377,6 +388,7 @@
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 20px;
+  padding: 10px;
 }
 
 .deals-header a {
@@ -621,4 +633,106 @@
 .story--deal .story-dealPrice-old {
   text-decoration: line-through;
   margin-right: 4px;
+}
+
+
+.footer {
+  text-align: center;
+}
+.footer {
+  transition: transform .5s ease;
+  position: relative;
+  will-change: transform;
+  z-index: 4;
+}
+
+.footer-links {
+  background: #131313;
+  padding: 2.5em 0;
+}
+
+.footer-legal {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
+}
+
+.wrapper-footer {
+  margin: 0 auto;
+  max-width: 1192px;
+
+}
+
+.footer-links-social {
+  margin-bottom: 1.5em;
+}
+ol, ul {
+  list-style: none;
+}
+
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.footer-links-menu li {
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+}
+
+.footer-legal-logoTNW {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.footer-legal-logoStackPath, .footer-legal span {
+  display: block;
+}
+
+.footer-legal-logoStackPath, .footer-legal-logoTNW {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.footer-links-social li .post-body a strong, .footer-links-social li a, .post-body a .footer-links-social li strong {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-links-social li a .icon, .post-body a .footer-links-social li strong .icon {
+  height: 16px;
+  width: 16px;
+}
+
+.footer-links-menu li {
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+}
+
+.footer-links-menu li .post-body a strong, .footer-links-menu li a, .post-body a .footer-links-menu li strong {
+  color: #aaa;
+}
+.post-body a strong, a {
+  color: #f42;
+  text-decoration: none;
 }

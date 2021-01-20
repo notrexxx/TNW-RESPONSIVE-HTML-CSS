@@ -206,7 +206,6 @@ h2 {
 .cover .distraction-title,
 .cover h2 {
   margin-bottom: 0.25em;
-  font-size: revert;
 }
 
 .cover {
@@ -372,6 +371,7 @@ h2 {
 .deals {
   margin-top: 50px;
 }
+
 .deals-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -384,7 +384,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
   padding: 20px;
 }
 
@@ -403,6 +402,7 @@ h2 {
   font-size: 13px;
   padding: 2.5em 0;
 }
+
 .footer-links {
   background: #131313;
   padding: 2.5em 0;
@@ -446,6 +446,11 @@ h2 {
   height: 12px;
 }
 
+.card-story-content a {
+  display: block;
+  margin-bottom: 10px;
+}
+
 .footer-links-social li .post-body a strong,
 .footer-links-social li a,
 .post-body a .footer-links-social li strong {
@@ -464,11 +469,19 @@ h2 {
   width: 16px;
 }
 
+.card-story-content {
+  width: 100%;
+  height: auto;
+  padding: 25px 20px 10px;
+  border-bottom: 1px solid orange;
+}
+
 .footer-links-menu li .post-body a strong,
 .footer-links-menu li a,
 .post-body a .footer-links-menu li strong {
   color: #aaa;
 }
+
 .wrapper-footer-tab {
   justify-content: center;
   display: flex;
@@ -530,20 +543,9 @@ h2 {
   font-size: 14px;
 }
 
-.most-popular-title {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: white;
-}
-
 .most-popular-sec {
   font-size: 0.8em;
   font-weight: bold;
-}
-
-.most-popular-byline {
-  position: absolute;
-  bottom: 10px;
 }
 
 .most-popular-byline span {
@@ -562,6 +564,7 @@ h2 {
   position: relative;
   margin: 2px 0;
 }
+
 .latest-popular-title {
   font-size: 1em;
 }
@@ -659,18 +662,6 @@ h2 {
   color: gray;
   font-size: 0.8em;
   margin-top: 5px;
-}
-
-.card-story-content {
-  width: 100%;
-  height: auto;
-  padding: 25px 20px 10px;
-  border-bottom: 1px solid orange;
-}
-
-.card-story-content a {
-  display: block;
-  margin-bottom: 10px;
 }
 
 .card-story-content span {

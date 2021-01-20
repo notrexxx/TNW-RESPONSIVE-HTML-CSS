@@ -1,93 +1,66 @@
-.nav {
-  background: #fff;
-  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
-  height: 48px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.nav-sections {
+  display: flex;
   left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 10;
 }
 
 .nav-logo {
-  left: 0;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  background-color: black;
+  z-index: 999;
+}
+
+.nav-logo img {
+  display: block;
+  height: 50px;
+  position: relative;
+  width: 95px;
+  z-index: 999;
+}
+
+.nav-logo-popout {
+  display: none;
 }
 
 .nav-tnw {
-  display: inline-block;
+  display: none;
 }
 
-.navbar {
-  display: flex;
-  align-content: center;
-  flex-flow: row wrap;
-  justify-content: space-between;
+.icons-nav {
+  padding: 5px;
+}
+
+.nav-sections-section {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 5px 5px 0px;
+}
+
+.u-clear {
+  display: inline-flex;
+  justify-content: space-around;
   width: 100%;
   height: 30px;
   padding: 5px 20px;
-  color: gray;
-  background-color: black;
-}
-
-.navbar li {
-  margin: 0 5px;
-
-  font-size: 0.8em;
-}
-
-.navbar ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-}
-
-.navbar-ul-end {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-}
-
-.navbar-sticky {
-  display: flex;
-  align-items: center;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  width: 100%;
-  height: 40px;
-  padding: 10px 10px 10px 20px;
-  color: gray;
-  background-color: whitesmoke;
-  box-shadow: 0 20px 32px lightgray;
-}
-
-.navbar-sticky ul {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.navbar-sticky li {
-  display: none;
-  margin-right: 1em;
-  text-transform: uppercase;
-  font-size: 0.7em;
-  font-weight: bold;
-}
-
-.navbar-sticky-img {
-  position: relative;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  height: 48px;
   top: 0;
-  right: -10px;
-  width: 40px;
-  height: 40px;
-  border-left: 2px solid lightgray;
-}
-
-.navbar-sticky-img img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
 }
 
 .story-header {
@@ -96,21 +69,6 @@
   height: 50vw;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle-796x449.jpg");
   background-size: cover;
-}
-
-.story__logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70%;
-  height: auto;
-  padding: 20px;
-  display: none;
-}
-
-.story__logo img {
-  width: 80%;
-  height: auto;
 }
 
 .story_img {
@@ -122,31 +80,17 @@
   height: 100%;
 }
 
-.story__header {
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  width: 100%;
-  height: auto;
-  max-height: 60%;
-  padding: 20px;
-}
-
-.story__header__title {
-  position: absolute;
-  bottom: 30px;
-  height: auto;
-  width: calc(100%-20px);
-  overflow: hidden;
-  padding: 10px 0;
-}
-
-.s-h__section {
-  color: white;
-
-  font-size: 1em;
+.most-popular-title {
+  font-size: 1.5em;
   font-weight: bold;
 }
+
+
+.story-block li {
+  font-size: 12px;
+  color: gray;
+}
+
 
 .story-block h2 {
   color: white;
@@ -161,7 +105,7 @@
 }
 .story-block ul {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: wrap;
   color: gray;
 }
 

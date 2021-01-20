@@ -463,8 +463,131 @@ h2 {
 
 .popular {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   width: 100%;
   grid-gap: 30px;
   padding: 18px;
+}
+
+.sections {
+  min-width: 300px;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  margin-top: 0;
+}
+
+.most-popular {
+  min-width: 300px;
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/LatestNews/Untitled-design-2021-01-18T133210.706-516x270.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.most-popular-gradient {
+  background-image: linear-gradient(
+    -180deg,
+    rgba(20, 20, 20, 0.2) 0%,
+    rgba(20, 20, 20, 0.8) 80%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.most-popular-head {
+  position: absolute;
+  bottom: 30px;
+  height: auto;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.most-popular-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.most-popular-sec {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.most-popular-byline {
+  position: absolute;
+  bottom: 10px;
+}
+
+.most-popular-byline span {
+  font-size: 0.6em;
+  color: gray;
+  margin-right: 10px;
+}
+
+.latest-popular {
+  width: 100%;
+  height: 100px;
+  padding: 20px 120px 20px 20px;
+  background-color: #fff4f2;
+  overflow: hidden;
+  color: orangered;
+  position: relative;
+  margin: 2px 0;
+}
+.latest-popular-title {
+  font-size: 1.3em;
+}
+
+.latest-popular-sec {
+  font-weight: lighter;
+  margin: 3px;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.headline-popular {
+  font-size: 0.8em;
+  padding: 10px 2px;
+  border-bottom: 1px solid gray;
+}
+
+.headline-popular::before {
+  content: "\2022";
+  color: orangered;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 0;
+}
+
+.latest-popular-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("../img/LatestNews/design-app-ui-startup-gq-480x270.png");
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popular-title {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Fire Sans", sans-serif;
 }

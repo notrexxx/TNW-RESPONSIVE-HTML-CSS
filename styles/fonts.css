@@ -4,12 +4,12 @@
   font-family: 'Fire Sans', sans-serif;
 }
 
-.ff-lvl-2 {
+.font-or {
   font-family: 'Orbitron', sans-serif;
 }
 
-.ff-lvl-3 {
-  /* font-family: 'Overpass', sans-serif; */
+.font-os {
+  
   font-family: 'Oswald', sans-serif;
 }
 
@@ -27,6 +27,3 @@ a:hover {
   text-decoration: underline;
 }
 
-time {
-  font: inherit
-}

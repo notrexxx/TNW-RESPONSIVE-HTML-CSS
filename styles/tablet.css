@@ -50,14 +50,13 @@
   font-size: 10px;
   letter-spacing: 1px;
   line-height: 1;
-  padding: 5px 5px 0px;
+  padding: 5px 5px 0;
 }
 
 .u-clear {
   display: inline-flex;
   justify-content: space-around;
   width: 100%;
-  height: 30px;
   padding: 5px 20px;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
   height: 48px;
@@ -91,6 +90,7 @@
   font-weight: bold;
   padding: 5px;
 }
+
 .most-popular-byline {
   padding: 5px;
 }
@@ -100,17 +100,26 @@
   color: gray;
 }
 
+h2 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 40px;
+}
+
 .story-block h2 {
   color: white;
   font-size: 2em;
   line-height: 1em;
 }
+
 .story-block header {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
+
 .story-block ul {
   display: flex;
   flex-flow: wrap;
@@ -119,10 +128,6 @@
 
 .icon-byline {
   height: 0.8em;
-}
-
-.story-block li {
-  margin-right: 10px;
 }
 
 .story-block a {
@@ -137,13 +142,14 @@
   width: 100%;
   height: 100%;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(5, 5, 7, 1) 3%,
-    rgba(5, 5, 5, 0) 86%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background:
+    linear-gradient(
+      0deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(5, 5, 7, 1) 3%,
+      rgba(5, 5, 5, 0) 86%,
+      rgba(0, 0, 0, 0) 100%
+    );
 }
 
 .cover-story {
@@ -183,8 +189,8 @@
   font-size: 1.5em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   font-weight: bold;
 }
 
@@ -202,30 +208,27 @@
   grid-gap: 10px;
   padding: 10px;
 }
+
 .sh-1 {
   grid-area: main;
   height: 100%;
 }
+
 .sh-2 {
   grid-area: top;
   height: 20vh;
 }
+
 .sh-3 {
   grid-area: bottom;
   height: 20vh;
 }
+
 .story--smallMobile {
   display: flex;
   flex-direction: column;
 }
 
-h2 {
-  color: #f42;
-  font-weight: 700;
-  line-height: 1.1;
-  line-height: 1.1;
-  font-size: 40px;
-}
 .story a {
   width: 80px;
 }
@@ -256,6 +259,7 @@ h2 {
 .story--investment {
   background: #fffaf8;
 }
+
 .story-investmentCard-header {
   position: relative;
   display: block;
@@ -298,23 +302,27 @@ h2 {
   display: block;
 }
 
-.story--investment .story-byline {
-  margin-top: 0;
-}
-.vertical .story-byline {
-  border-top: 1px solid rgba(255, 68, 34, 0.25);
-  margin-top: 1px;
-  padding-top: 1px;
-}
-.story-ad dPadding {
-  padding: 30px;
-}
 .story-byline {
   color: #aaa;
   font-size: 12px;
   line-height: 18px;
   padding-top: 1px;
 }
+
+.story--investment .story-byline {
+  margin-top: 0;
+}
+
+.vertical .story-byline {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  margin-top: 1px;
+  padding-top: 1px;
+}
+
+.story-ad {
+  padding: 30px;
+}
+
 .story-investmentCard-bit {
   padding-left: 2em;
   position: relative;
@@ -324,6 +332,7 @@ h2 {
   display: block;
   line-height: 22px;
 }
+
 .wrapper {
   height: 1045px;
   display: block;

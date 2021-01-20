@@ -1,7 +1,4 @@
 @import url("mobile.css") screen and (max-width: 480px);
-
 @import url("tablet.css") screen and (min-width: 768px);
-
 @import url("fonts.css");
-
 @import url("desktop.css") screen and (min-width: 769px);

@@ -206,14 +206,6 @@
   padding: 7px;
   margin-top: 50px;
 }
-
-.wrapper h2 {
-  color: #f42;
-  font-weight: 700;
-  line-height: 1.1;
-  font-size: 30px;
-  padding: 20px;
-}
 .art-last h4 {
   display: block;
   margin-block-start: 1.33em;
@@ -655,7 +647,6 @@
 .footer-links-social {
   margin-bottom: 1.5em;
 }
-
 ol,
 ul {
   list-style: none;

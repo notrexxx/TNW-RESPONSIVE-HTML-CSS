@@ -8,6 +8,8 @@
 .nav-sections {
   display: flex;
   left: 0;
+  margin-left: 50px;
+  padding-top: 10px;
 }
 
 .nav-logo {
@@ -34,6 +36,10 @@
 
 .icons-nav {
   padding: 5px;
+}
+
+.nav-icons {
+ margin-left: 10px;
 }
 
 .nav-sections-section {

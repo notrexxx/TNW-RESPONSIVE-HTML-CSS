@@ -203,7 +203,6 @@ h2 {
 .cover .distraction-title,
 .cover h2 {
   margin-bottom: 0.25em;
-  font-size: revert;
 }
 
 .cover {

@@ -526,6 +526,13 @@ ul {
   bottom: 10px;
 }
 
+.most-popular-byline a {
+  font-size: 0.6em;
+  color: gray;
+  margin-right: 10px;
+  padding: 10px;
+}
+
 .most-popular-byline span {
   font-size: 0.6em;
   color: gray;

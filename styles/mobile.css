@@ -206,6 +206,15 @@
   padding: 7px;
   margin-top: 50px;
 }
+
+.lastest-header h2 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Fire Sans", sans-serif;
+}
 .art-last h4 {
   display: block;
   margin-block-start: 1.33em;

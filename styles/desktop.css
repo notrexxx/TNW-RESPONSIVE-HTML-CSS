@@ -5,6 +5,12 @@
     font-size: 16px;
   }
   
+  main {
+    padding: 50px 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
   .nav-sections {
     display: flex;
     left: 0;
@@ -142,14 +148,13 @@
     width: 100%;
     height: 100%;
     background: rgb(2, 0, 36);
-    background:
-      linear-gradient(
-        0deg,
-        rgba(2, 0, 36, 1) 0%,
-        rgba(5, 5, 7, 1) 3%,
-        rgba(5, 5, 5, 0) 86%,
-        rgba(0, 0, 0, 0) 100%
-      );
+    background: linear-gradient(
+      0deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(5, 5, 7, 1) 3%,
+      rgba(5, 5, 5, 0) 86%,
+      rgba(0, 0, 0, 0) 100%
+    );
   }
   
   .cover-story {
@@ -206,7 +211,12 @@
       "main main top"
       "main main bottom";
     grid-gap: 10px;
-    padding: 10px;
+    padding: 10px 0 0 10px;
+    height: 600px;
+  }
+  
+  .align-items{
+    display: flex;
   }
   
   .sh-1 {
@@ -216,12 +226,12 @@
   
   .sh-2 {
     grid-area: top;
-    height: 20vh;
+    height: 30vh;
   }
   
   .sh-3 {
     grid-area: bottom;
-    height: 20vh;
+    height: 30vh;
   }
   
   .story--smallMobile {
@@ -334,21 +344,370 @@
   }
   
   .wrapper {
-    height: 1045px;
-    display: block;
+      display: flex;
+    height: 650px;
+    justify-content: center;
   }
   
   .latest {
     display: grid;
     position: absolute;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 80%;
+    grid-gap: 30px;
+    padding: 18px;
+    margin-top: 10px;
+ 
+  }
+  
+  .lastest-header {
+    position: relative;
+ margin-left: 120px;
+ padding: 40px;
+  }
+  
+  .deals {
+    margin-top: 50px;
+  }
+  .deals-grid {
+    display: grid;
+  
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 80%;
+    grid-gap: 30px;
+    padding: 18px;
+  }
+  
+  .deals-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    padding: 20px;
+  }
+  
+  .deals-header a {
+    color: orangered;
+  }
+  
+  .deals-header-more {
+    padding-top: 20px;
+    color: #f42;
+  }
+  
+  .footer-legal {
+    background: #000;
+    color: #aaa;
+    font-size: 13px;
+    padding: 2.5em 0;
+  }
+  .footer-links {
+    background: #131313;
+    padding: 2.5em 0;
+  }
+  
+  .wrapper-footer {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1192px;
+  }
+  
+  .footer-links-social {
+    margin-bottom: 1.5em;
+  }
+  
+  .footer-links-social li {
+    display: inline-block;
+    margin: 0 3px;
+  }
+  
+  .footer-links-menu li {
+    font-family: Shentox, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 4px;
+  }
+  
+  .footer-legal-logoTNW {
+    display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
+  }
+  
+  .footer-legal-logoStackPath,
+  .footer-legal span {
+    height: 12px;
+  }
+  
+  .footer-links-social li .post-body a strong,
+  .footer-links-social li a,
+  .post-body a .footer-links-social li strong {
+    background: #333;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+    width: 40px;
+  }
+  
+  .footer-links-social li a .icon,
+  .post-body a .footer-links-social li strong .icon {
+    height: 16px;
+    width: 16px;
+  }
+  
+  .footer-links-menu li .post-body a strong,
+  .footer-links-menu li a,
+  .post-body a .footer-links-menu li strong {
+    color: #aaa;
+  }
+  .wrapper-footer-tab {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1192px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .popular {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
     grid-gap: 30px;
     padding: 18px;
   }
   
-  .lastest-header {
-    padding: 20px;
+  .sections {
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    margin-top: 0;
   }
   
+  .most-popular {
+    min-width: 300px;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/LatestNews/Untitled-design-2021-01-18T133210.706-516x270.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .most-popular-gradient {
+    background-image: linear-gradient(
+      -180deg,
+      rgba(20, 20, 20, 0.2) 0%,
+      rgba(20, 20, 20, 0.8) 80%,
+      rgba(20, 20, 20, 1) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .most-popular-head {
+    position: absolute;
+    bottom: 30px;
+    height: auto;
+    max-height: 150px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+  
+  .most-popular-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .most-popular-sec {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  .most-popular-byline {
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .most-popular-byline span {
+    font-size: 0.6em;
+    color: gray;
+    margin-right: 10px;
+  }
+  
+  .latest-popular {
+    width: 100%;
+    height: 100px;
+    padding: 20px 120px 20px 20px;
+    background-color: #fff4f2;
+    overflow: hidden;
+    color: orangered;
+    position: relative;
+    margin: 2px 0;
+  }
+  .latest-popular-title {
+    font-size: 1em;
+  }
+  
+  .latest-popular-sec {
+    font-weight: lighter;
+    margin: 3px;
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+  
+  .headline-popular {
+    font-size: 0.8em;
+    padding: 10px 2px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .headline-popular::before {
+    content: "\2022";
+    color: orangered;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0;
+  }
+  
+  .latest-popular-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../img/LatestNews/design-app-ui-startup-gq-480x270.png");
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .popular-title {
+    color: #f42;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 30px;
+    padding: 20px;
+    font-family: "Fire Sans", sans-serif;
+  }
+  
+  
+  .inv-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    grid-gap: 30px;
+    padding: 18px;
+  }
+  
+  .inv-tab{
+  
+    display: none;
+  }
+  
+  
+  .card-story {
+    width: 100%;
+    height: auto;
+    background-color: #fffaf8;
+    margin: 10px;
+  }
+  
+  .card-story-wrap {
+    position: relative;
+  }
+  
+  .card-story img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .card-story-title {
+    width: 100%;
+    height: 40px;
+    background-color: orangered;
+    padding: 10px 20px 10px 80px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .card-story-name {
+    width: 100%;
+    height: 60px;
+    background-color: #ffebe7;
+    padding: 10px 20px 10px 80px;
+    color: black;
+  }
+  
+  .card-story-name h5 {
+    color: gray;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
+  .card-story-content {
+    width: 100%;
+    height: auto;
+    padding: 25px 20px 10px;
+    border-bottom: 1px solid orange;
+  }
+  
+  .card-story-content a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .card-story-content span {
+    font-weight: 300;
+    font-size: 0.8em;
+    padding-left: 10px;
+  }
+  
+  .card-story__footer {
+    padding: 20px;
+    font-size: 0.8em;
+    font-weight: 300;
+  }
+  
+  .card-story__footer span {
+    font-weight: inherit;
+    font-size: inherit;
+    color: gray;
+  }
+  
+  .inv-block {
+    display: grid;
+    row-gap: 5px;
+  }
+  
+  .inv-space{
+  
+    margin-left: -10px;
+  }
+  
+  .align-items{
+  
+    font-size: 14px;
+  }

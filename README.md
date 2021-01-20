@@ -3,23 +3,21 @@
 # Project Name
 
 > This is a complete proyect of a replica of TheNextWeb index page, using CSS and HTML
-![screenshot](img/desktop.png)
-![screenshot](img/tablet.png)
-![screenshot](img/mobile.png)
--FlexBox
--Floats
--Grid
--Gradients
+> ![screenshot](img/desktop.png)
+> ![screenshot](img/tablet.png)
+> ![screenshot](img/mobile.png)
+> -FlexBox
+> -Floats
+> -Grid
+> -Gradients
 
 ## Built With
 
 - HTML & CSS
 
-
 ## Live Demo
 
 [Live Demo Link](https://notrexxx.github.io/TNW-RESPONSIVE-HTML-CSS/)
-
 
 ## Authors
 
@@ -31,9 +29,7 @@
 
 👤 **Author2**
 
-- GitHub: [@disc3110](https://github.com/disc3110)
-- Twitter: [@disc3110](https://twitter.com/disc3110)
-- LinkedIn: [Diego-Solis](https://linkedin.com/diego-solis-277651184)
+- GitHub: [@disc3110](https://github.com/eroauditore)
 
 ## 🤝 Contributing
 

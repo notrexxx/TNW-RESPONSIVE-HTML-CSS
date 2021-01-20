@@ -148,13 +148,14 @@ h2 {
   width: 100%;
   height: 100%;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(5, 5, 7, 1) 3%,
-    rgba(5, 5, 5, 0) 86%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background:
+    linear-gradient(
+      0deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(5, 5, 7, 1) 3%,
+      rgba(5, 5, 5, 0) 86%,
+      rgba(0, 0, 0, 0) 100%
+    );
 }
 
 .cover-story {
@@ -214,7 +215,7 @@ h2 {
   padding: 10px 0 0 10px;
 }
 
-.align-items{
+.align-items {
   display: flex;
 }
 
@@ -364,9 +365,9 @@ h2 {
 .deals {
   margin-top: 50px;
 }
+
 .deals-grid {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   width: 100%;
@@ -396,6 +397,7 @@ h2 {
   font-size: 13px;
   padding: 2.5em 0;
 }
+
 .footer-links {
   background: #131313;
   padding: 2.5em 0;
@@ -410,6 +412,11 @@ h2 {
 
 .footer-links-social {
   margin-bottom: 1.5em;
+}
+
+.card-story-content a {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .footer-links-social li {
@@ -462,6 +469,7 @@ h2 {
 .post-body a .footer-links-menu li strong {
   color: #aaa;
 }
+
 .wrapper-footer-tab {
   justify-content: center;
   display: flex;
@@ -502,12 +510,13 @@ h2 {
 }
 
 .most-popular-gradient {
-  background-image: linear-gradient(
-    -180deg,
-    rgba(20, 20, 20, 0.2) 0%,
-    rgba(20, 20, 20, 0.8) 80%,
-    rgba(20, 20, 20, 1) 100%
-  );
+  background-image:
+    linear-gradient(
+      -180deg,
+      rgba(20, 20, 20, 0.2) 0%,
+      rgba(20, 20, 20, 0.8) 80%,
+      rgba(20, 20, 20, 1) 100%
+    );
   position: absolute;
   top: 0;
   left: 0;
@@ -524,20 +533,9 @@ h2 {
   font-size: 14px;
 }
 
-.most-popular-title {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: white;
-}
-
 .most-popular-sec {
   font-size: 0.8em;
   font-weight: bold;
-}
-
-.most-popular-byline {
-  position: absolute;
-  bottom: 10px;
 }
 
 .most-popular-byline span {
@@ -556,6 +554,7 @@ h2 {
   position: relative;
   margin: 2px 0;
 }
+
 .latest-popular-title {
   font-size: 1em;
 }
@@ -603,7 +602,6 @@ h2 {
   font-family: "Fire Sans", sans-serif;
 }
 
-
 .inv-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -612,11 +610,9 @@ h2 {
   padding: 18px;
 }
 
-.inv-tab{
-
+.inv-tab {
   display: none;
 }
-
 
 .card-story {
   width: 100%;
@@ -667,11 +663,6 @@ h2 {
   border-bottom: 1px solid orange;
 }
 
-.card-story-content a {
-  display: block;
-  margin-bottom: 10px;
-}
-
 .card-story-content span {
   font-weight: 300;
   font-size: 0.8em;
@@ -695,12 +686,6 @@ h2 {
   row-gap: 5px;
 }
 
-.inv-space{
-
+.inv-space {
   margin-left: -10px;
-}
-
-.align-items{
-
-  font-size: 14px;
 }

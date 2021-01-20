@@ -7,6 +7,8 @@
 
 main {
   padding: 50px 20px 20px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-sections {
@@ -457,4 +459,12 @@ h2 {
   max-width: 1192px;
   flex-direction: column;
   align-items: center;
+}
+
+.popular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  grid-gap: 30px;
+  padding: 18px;
 }

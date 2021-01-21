@@ -188,6 +188,20 @@ h2 {
   width: 100%;
 }
 
+.cover-logo {
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg);
+    background-size: contain;
+    left: 30px;
+    max-width: 50%;
+    height: 100%;
+    max-height: 112px;
+    line-height: 1;
+    top: 0px;
+    margin-block-end: auto;
+    margin-top: 26px;
+}
+
+
 .cover-image,
 .cover-trigger {
   bottom: 4px;

@@ -208,14 +208,14 @@ h2 {
   width: 100%;
   height: 100%;
   background: rgb(2, 0, 36);
-  background: 
+  background:
     linear-gradient(
       0deg,
       rgba(2, 0, 36, 1) 0%,
       rgba(5, 5, 7, 1) 3%,
       rgba(5, 5, 5, 0) 86%,
       rgba(0, 0, 0, 0) 100%
-  );
+    );
 }
 
 .cover-story {
@@ -590,13 +590,13 @@ h2 {
 }
 
 .most-popular-gradient {
-  background-image: 
+  background-image:
     linear-gradient(
       -180deg,
       rgba(20, 20, 20, 0.2) 0%,
       rgba(20, 20, 20, 0.8) 80%,
       rgba(20, 20, 20, 1) 100%
-  );
+    );
   position: absolute;
   top: 0;
   left: 0;

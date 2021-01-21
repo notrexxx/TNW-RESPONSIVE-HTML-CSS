@@ -95,10 +95,14 @@ main {
   font-size: 1.5em;
   font-weight: bold;
   padding: 5px;
+  color: white;
 }
 
 .most-popular-byline {
   padding: 5px;
+  margin-top: 250px;
+  position: absolute;
+  color: #aaa;
 }
 
 .story-block li {

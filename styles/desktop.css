@@ -52,15 +52,42 @@ main {
   color: #fff;
   padding: 0 15px 0 26px;
   justify-content: space-between;
+  font-size: 14px;
+}
+.nav-tnw-yellow {
+  background: #fd3;
+  display: flex;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 0 15px 0 26px;
+  justify-content: space-between;
+  top: 78px;
+}
+.nav-tnw-yellow span {
+  font-size: 12px;
 }
 
 .nav-tnw-news {
   display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
+
+.nav-tnw-news a {
+  font-size: 10px;
 }
 .nav-company {
   display: flex;
-  width: 250px;
+  width: 200px;
   justify-content: space-around;
+}
+.nav-company a {
+  font-size: 10px;
 }
 .icons-nav {
   padding: 5px;
@@ -198,33 +225,40 @@ h2 {
 }
 
 .cover-gradient {
-    background: rgb(242,7,7);
-    background: linear-gradient(140deg, rgba(242,7,7,1) 0%, rgba(253,29,29,0) 69%, rgba(252,176,69,0) 100%);
-  
-    background-position: 0 0;
-    background-size: cover;
-    bottom: 0px;
-    left: 0px;
-    mix-blend-mode: lighten;
-    pointer-events: none;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    z-index: 4;
+  background: rgb(242, 7, 7);
+  background: linear-gradient(
+    140deg,
+    rgba(242, 7, 7, 1) 0%,
+    rgba(253, 29, 29, 0) 69%,
+    rgba(252, 176, 69, 0) 100%
+  );
+
+  background-position: 0 0;
+  background-size: cover;
+  bottom: 0px;
+  left: 0px;
+  mix-blend-mode: lighten;
+  pointer-events: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 4;
 }
 
 .cover-logo {
-    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
-    background-size: contain;
-    left: 30px;
-    max-width: 50%;
-    height: 100%;
-    max-height: 112px;
-    line-height: 1;
-    top: 0px;
-    margin-block-end: auto;
-    margin-top: 26px;
-    margin-left: 10px;
+  background: transparent
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
+    no-repeat;
+  background-size: contain;
+  left: 30px;
+  max-width: 50%;
+  height: 100%;
+  max-height: 112px;
+  line-height: 1;
+  top: 0px;
+  margin-block-end: auto;
+  margin-top: 26px;
+  margin-left: 10px;
 }
 
 .cover-image,

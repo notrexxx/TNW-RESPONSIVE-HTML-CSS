@@ -189,7 +189,7 @@ h2 {
 }
 
 .cover-logo {
-    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg);
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
     background-size: contain;
     left: 30px;
     max-width: 50%;

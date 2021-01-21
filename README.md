@@ -3,9 +3,7 @@
 # Project Name
 
 > This is a complete proyect of a replica of TheNextWeb index page, using CSS and HTML
-> ![screenshot](img/desktop.png)
-> ![screenshot](img/tablet.png)
-> ![screenshot](img/mobile.png)
+> ![screenshot](img/desktop.png) > ![screenshot](img/tablet.png) > ![screenshot](img/mobile.png)
 > -FlexBox
 > -Floats
 > -Grid
@@ -29,7 +27,8 @@
 
 👤 **Author2**
 
-- GitHub: [@disc3110](https://github.com/eroauditore)
+- GitHub: [@eroauditore](https://github.com/eroauditore)
+- LinkedIn: [Eduardo](https://linkedin.com/eroauditore)
 
 ## 🤝 Contributing
 

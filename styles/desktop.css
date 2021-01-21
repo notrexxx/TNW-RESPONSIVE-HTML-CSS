@@ -41,7 +41,7 @@ main {
 
 .nav-tnw {
   background: #131313;
-  display: inline-flex;
+  display: flex;
   font-size: 13px;
   font-weight: 500;
   line-height: 32px;
@@ -50,9 +50,18 @@ main {
   z-index: 2;
   width: 100%;
   color: #fff;
-  padding-left: 30px;
+  padding: 0 15px 0 26px;
+  justify-content: space-between;
 }
 
+.nav-tnw-news {
+  display: flex;
+}
+.nav-company {
+  display: flex;
+  width: 250px;
+  justify-content: space-around;
+}
 .icons-nav {
   padding: 5px;
   position: absolute;
@@ -189,18 +198,19 @@ h2 {
 }
 
 .cover-logo {
-    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
-    background-size: contain;
-    left: 30px;
-    max-width: 50%;
-    height: 100%;
-    max-height: 112px;
-    line-height: 1;
-    top: 0px;
-    margin-block-end: auto;
-    margin-top: 26px;
+  background: transparent
+    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
+    no-repeat;
+  background-size: contain;
+  left: 30px;
+  max-width: 50%;
+  height: 100%;
+  max-height: 112px;
+  line-height: 1;
+  top: 0px;
+  margin-block-end: auto;
+  margin-top: 26px;
 }
-
 
 .cover-image,
 .cover-trigger {

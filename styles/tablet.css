@@ -39,7 +39,6 @@ main {
 .nav-tnw {
   background: #131313;
   display: flex;
-  font-size: 13px;
   font-weight: 500;
   line-height: 32px;
   max-height: 32px;
@@ -51,6 +50,7 @@ main {
   justify-content: space-between;
   font-size: 14px;
 }
+
 .nav-tnw-yellow {
   background: #fd3;
   display: flex;
@@ -65,6 +65,7 @@ main {
   justify-content: space-between;
   top: 78px;
 }
+
 .nav-tnw-yellow span {
   font-size: 12px;
 }
@@ -78,14 +79,17 @@ main {
 .nav-tnw-news a {
   font-size: 10px;
 }
+
 .nav-company {
   display: flex;
   width: 200px;
   justify-content: space-around;
 }
+
 .nav-company a {
   font-size: 10px;
 }
+
 .icons-nav {
   padding: 5px;
   position: absolute;
@@ -415,6 +419,7 @@ h2 {
 .lastest-header {
   padding: 20px;
 }
+
 .lastest-title {
   font-weight: bolder;
   font-size: 25px;
@@ -423,6 +428,7 @@ h2 {
 .deals {
   margin-top: 50px;
 }
+
 .deals-title a {
   font-size: 25px;
   font-weight: bolder;
@@ -443,6 +449,7 @@ h2 {
   justify-content: space-between;
   padding: 20px;
 }
+
 .deals-header-founding {
   display: grid;
   justify-content: space-between;

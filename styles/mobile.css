@@ -61,6 +61,7 @@ main {
 .nav-tnw-yellow span {
   font-size: 8px;
 }
+
 .nav-mob,
 .nav-mob h5 {
   color: #fff;
@@ -490,6 +491,7 @@ ul {
 .inv-grid {
   margin-top: 20px;
 }
+
 .popular {
   padding: 20px;
 }
@@ -636,6 +638,7 @@ ul {
 .deals-wrap {
   padding: 8px;
 }
+
 .deals-title a {
   font-size: 15px;
   font-weight: bolder;

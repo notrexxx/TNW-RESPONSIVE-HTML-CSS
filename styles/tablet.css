@@ -37,15 +37,30 @@ main {
 }
 
 .nav-tnw {
-  display: none;
+  background: #131313;
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  color: #fff;
+  padding-left: 105px;
 }
-
 .icons-nav {
   padding: 5px;
+  position: absolute;
+  right: 8px;
 }
 
 .nav-icons {
   margin-left: 10px;
+}
+
+.icons-nav-bars {
+  display: none;
 }
 
 .nav-sections-section {
@@ -66,7 +81,7 @@ main {
   padding: 5px 20px;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
   height: 48px;
-  top: 0;
+  top: 30px;
   right: 0;
   left: 0;
   position: fixed;
@@ -152,14 +167,13 @@ h2 {
   width: 100%;
   height: 100%;
   background: rgb(2, 0, 36);
-  background:
-    linear-gradient(
-      0deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(5, 5, 7, 1) 3%,
-      rgba(5, 5, 5, 0) 86%,
-      rgba(0, 0, 0, 0) 100%
-    );
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(5, 5, 7, 1) 3%,
+    rgba(5, 5, 5, 0) 86%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .cover-story {
@@ -513,13 +527,12 @@ h2 {
 }
 
 .most-popular-gradient {
-  background-image:
-    linear-gradient(
-      -180deg,
-      rgba(20, 20, 20, 0.2) 0%,
-      rgba(20, 20, 20, 0.8) 80%,
-      rgba(20, 20, 20, 1) 100%
-    );
+  background-image: linear-gradient(
+    -180deg,
+    rgba(20, 20, 20, 0.2) 0%,
+    rgba(20, 20, 20, 0.8) 80%,
+    rgba(20, 20, 20, 1) 100%
+  );
   position: absolute;
   top: 0;
   left: 0;

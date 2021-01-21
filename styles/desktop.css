@@ -214,20 +214,6 @@ h2 {
 }
 
 .cover-logo {
-<<<<<<< HEAD
-  background: transparent
-    url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
-    no-repeat;
-  background-size: contain;
-  left: 30px;
-  max-width: 50%;
-  height: 100%;
-  max-height: 112px;
-  line-height: 1;
-  top: 0px;
-  margin-block-end: auto;
-  margin-top: 26px;
-=======
     background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
     background-size: contain;
     left: 30px;
@@ -239,7 +225,6 @@ h2 {
     margin-block-end: auto;
     margin-top: 26px;
     margin-left: 10px;
->>>>>>> 0565154167894acf8b1c7488b4b274f01e225aa8
 }
 
 .cover-image,

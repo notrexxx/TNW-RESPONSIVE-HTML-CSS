@@ -1,11 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TNW Responsive desing project
 
 > This is a complete proyect of a replica of TheNextWeb index page, using CSS and HTML
 
 
-> ![screenshot](img/desktop.png)
+> ![screenshot](img/Desktop.png)
 
 > ![screenshot](img/tablet.png)
 
@@ -35,7 +35,7 @@
 
 👤 **Author2**
 
-- GitHub: [@disc3110](https://github.com/eroauditore)
+- GitHub: [@eroauditore](https://github.com/eroauditore)
 
 ## 🤝 Contributing
 

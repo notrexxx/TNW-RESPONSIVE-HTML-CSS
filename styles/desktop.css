@@ -6,7 +6,7 @@
 }
 
 main {
-  padding: 50px 20px 20px 20px;
+  padding: 110px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,6 +50,7 @@ main {
   z-index: 2;
   width: 100%;
   color: #fff;
+  padding-left: 30px;
 }
 
 .icons-nav {

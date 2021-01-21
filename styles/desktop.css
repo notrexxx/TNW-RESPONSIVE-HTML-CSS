@@ -197,7 +197,24 @@ h2 {
   width: 100%;
 }
 
+.cover-gradient {
+    background: rgb(242,7,7);
+    background: linear-gradient(140deg, rgba(242,7,7,1) 0%, rgba(253,29,29,0) 69%, rgba(252,176,69,0) 100%);
+  
+    background-position: 0 0;
+    background-size: cover;
+    bottom: 0px;
+    left: 0px;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 4;
+}
+
 .cover-logo {
+<<<<<<< HEAD
   background: transparent
     url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg)
     no-repeat;
@@ -210,6 +227,19 @@ h2 {
   top: 0px;
   margin-block-end: auto;
   margin-top: 26px;
+=======
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
+    background-size: contain;
+    left: 30px;
+    max-width: 50%;
+    height: 100%;
+    max-height: 112px;
+    line-height: 1;
+    top: 0px;
+    margin-block-end: auto;
+    margin-top: 26px;
+    margin-left: 10px;
+>>>>>>> 0565154167894acf8b1c7488b4b274f01e225aa8
 }
 
 .cover-image,

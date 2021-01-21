@@ -3,9 +3,15 @@
 # Project Name
 
 > This is a complete proyect of a replica of TheNextWeb index page, using CSS and HTML
+
+
 > ![screenshot](img/desktop.png)
+
 > ![screenshot](img/tablet.png)
+
 > ![screenshot](img/mobile.png)
+
+
 > -FlexBox
 > -Floats
 > -Grid

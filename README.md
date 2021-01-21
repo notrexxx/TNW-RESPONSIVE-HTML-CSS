@@ -3,10 +3,6 @@
 # TNW Responsive desing project
 
 > This is a complete proyect of a replica of TheNextWeb index page, using CSS and HTML
-<<<<<<< HEAD
-> ![screenshot](img/desktop.png) > ![screenshot](img/tablet.png) > ![screenshot](img/mobile.png)
-=======
-
 
 > ![screenshot](img/Desktop.png)
 
@@ -14,8 +10,6 @@
 
 > ![screenshot](img/mobile.png)
 
-
->>>>>>> c485d90da0d21ac85d9875631545c9c05d163772
 > -FlexBox
 > -Floats
 > -Grid
@@ -40,10 +34,7 @@
 👤 **Author2**
 
 - GitHub: [@eroauditore](https://github.com/eroauditore)
-<<<<<<< HEAD
 - LinkedIn: [Eduardo](https://linkedin.com/eroauditore)
-=======
->>>>>>> c485d90da0d21ac85d9875631545c9c05d163772
 
 ## 🤝 Contributing
 

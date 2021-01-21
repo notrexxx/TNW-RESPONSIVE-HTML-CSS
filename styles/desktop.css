@@ -460,10 +460,9 @@ h2 {
   font-weight: bolder;
 }
 
-
 .lastest-title {
-    font-weight: bolder;
-    font-size: 25px;
+  font-weight: bolder;
+  font-size: 25px;
 }
 
 .deals {
@@ -475,7 +474,6 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 30px;
-  padding: 18px;
 }
 
 .deals-header {
@@ -491,9 +489,13 @@ h2 {
 }
 
 .deals-title a {
-    font-size: 25px;
-    font-weight: bolder;
-  }
+  font-size: 25px;
+  font-weight: bolder;
+}
+.deals-title-head a {
+  font-size: 25px;
+  font-weight: bolder;
+}
 
 .deals-header-more {
   padding-top: 20px;
@@ -597,9 +599,10 @@ h2 {
 
 .popular {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
   grid-gap: 30px;
+  margin-top: 40px;
 }
 
 .sections {
@@ -783,10 +786,10 @@ h2 {
 }
 
 .inv-block {
-    display: inline-flex;
-    justify-content: space-evenly;
-    width: 350px;
-    padding-top: 20px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 350px;
+  padding-top: 20px;
 }
 
 .inv-space {
@@ -794,13 +797,7 @@ h2 {
 }
 
 .container-section-desktop {
-  width: 80%;
+  width: 95%;
   display: flex;
   flex-direction: column;
-}
-
-.container-section-dektop {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
 }

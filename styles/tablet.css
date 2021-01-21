@@ -6,7 +6,7 @@
 }
 
 main {
-  padding: 50px 20px 20px 0;
+  padding: 110px 20px 20px 0;
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +26,7 @@ main {
 
 .nav-logo img {
   display: block;
-  height: 50px;
+  height: 78px;
   position: relative;
   width: 95px;
   z-index: 999;
@@ -38,7 +38,7 @@ main {
 
 .nav-tnw {
   background: #131313;
-  display: inline-flex;
+  display: flex;
   font-size: 13px;
   font-weight: 500;
   line-height: 32px;
@@ -47,7 +47,44 @@ main {
   z-index: 2;
   width: 100%;
   color: #fff;
-  padding-left: 105px;
+  padding: 0 15px 0 100px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.nav-tnw-yellow {
+  background: #fd3;
+  display: flex;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 0 15px 0 26px;
+  justify-content: space-between;
+  top: 78px;
+}
+.nav-tnw-yellow span {
+  font-size: 12px;
+}
+
+.nav-tnw-news {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
+
+.nav-tnw-news a {
+  font-size: 10px;
+}
+.nav-company {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+}
+.nav-company a {
+  font-size: 10px;
 }
 .icons-nav {
   padding: 5px;
@@ -382,6 +419,11 @@ h2 {
 .deals {
   margin-top: 50px;
 }
+.deals-title a {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
 
 .deals-grid {
   display: grid;
@@ -395,7 +437,6 @@ h2 {
 .deals-header {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
   padding: 20px;
 }
 
@@ -546,7 +587,7 @@ h2 {
   height: auto;
   max-height: 150px;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .most-popular-sec {
@@ -698,6 +739,7 @@ h2 {
 }
 
 .inv-block {
+  margin-top: 20px;
   display: grid;
   row-gap: 5px;
 }

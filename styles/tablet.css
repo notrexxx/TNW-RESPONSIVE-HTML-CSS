@@ -415,6 +415,10 @@ h2 {
 .lastest-header {
   padding: 20px;
 }
+.lastest-title {
+  font-weight: bolder;
+  font-size: 25px;
+}
 
 .deals {
   margin-top: 50px;
@@ -439,9 +443,19 @@ h2 {
   justify-content: space-between;
   padding: 20px;
 }
+.deals-header-founding {
+  display: grid;
+  justify-content: space-between;
+  padding: 20px;
+}
 
 .deals-header a {
   color: orangered;
+}
+
+.deals-title-head a {
+  font-size: 25px;
+  font-weight: bolder;
 }
 
 .deals-header-more {
@@ -742,6 +756,7 @@ h2 {
   margin-top: 20px;
   display: grid;
   row-gap: 5px;
+  color: orangered;
 }
 
 .inv-space {

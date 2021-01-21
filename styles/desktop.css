@@ -482,6 +482,11 @@ h2 {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+.deals-header-founding {
+  display: flex;
+  justify-content: space-between;
+  color: orangered;
+}
 
 .deals-header a {
   color: orangered;

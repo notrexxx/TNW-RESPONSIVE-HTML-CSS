@@ -455,9 +455,15 @@ h2 {
 }
 
 .lastest-header {
-  position: relative;
-  margin-left: 120px;
-  padding: 40px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+
+.lastest-title {
+    font-weight: bolder;
+    font-size: 25px;
 }
 
 .deals {
@@ -475,13 +481,19 @@ h2 {
 .deals-header {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
-  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .deals-header a {
   color: orangered;
+  font-size: 15px;
 }
+
+.deals-title a {
+    font-size: 25px;
+    font-weight: bolder;
+  }
 
 .deals-header-more {
   padding-top: 20px;
@@ -706,13 +718,9 @@ h2 {
 
 .inv-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   width: 100%;
   grid-gap: 30px;
-}
-
-.inv-tab {
-  display: none;
 }
 
 .card-story {
@@ -775,8 +783,10 @@ h2 {
 }
 
 .inv-block {
-  display: grid;
-  row-gap: 5px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 350px;
+    padding-top: 20px;
 }
 
 .inv-space {

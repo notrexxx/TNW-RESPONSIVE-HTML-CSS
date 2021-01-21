@@ -188,6 +188,22 @@ h2 {
   width: 100%;
 }
 
+.cover-gradient {
+    background: rgb(242,7,7);
+    background: linear-gradient(140deg, rgba(242,7,7,1) 0%, rgba(253,29,29,0) 69%, rgba(252,176,69,0) 100%);
+  
+    background-position: 0 0;
+    background-size: cover;
+    bottom: 0px;
+    left: 0px;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 4;
+}
+
 .cover-logo {
     background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) no-repeat;
     background-size: contain;
@@ -199,6 +215,7 @@ h2 {
     top: 0px;
     margin-block-end: auto;
     margin-top: 26px;
+    margin-left: 10px;
 }
 
 

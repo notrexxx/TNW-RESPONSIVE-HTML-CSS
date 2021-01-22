@@ -352,8 +352,8 @@ h2 {
   background: #f42;
   color: #fff;
   padding: 10px 6px 10.6666666667px 84px;
-  margin: 0 !important;
-  font-size: 18px !important;
+  margin: 0;
+  font-size: 18px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

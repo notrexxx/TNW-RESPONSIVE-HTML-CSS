@@ -23,3 +23,11 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.fa-search{
+  color: grey;
+}
+
+.fa-bars{
+  color: orangered;
+}

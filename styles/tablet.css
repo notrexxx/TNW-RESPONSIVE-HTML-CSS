@@ -1,0 +1,773 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+main {
+  padding: 110px 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-sections {
+  display: flex;
+  left: 0;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+
+.nav-logo {
+  position: fixed;
+  background-color: black;
+  z-index: 999;
+}
+
+.nav-logo img {
+  display: block;
+  height: 78px;
+  position: relative;
+  width: 95px;
+  z-index: 999;
+}
+
+.nav-logo-popout {
+  display: none;
+}
+
+.nav-tnw {
+  background: #131313;
+  display: flex;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  color: #fff;
+  padding: 0 15px 0 100px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.nav-tnw-yellow {
+  background: #fd3;
+  display: flex;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 0 15px 0 26px;
+  justify-content: space-between;
+  top: 78px;
+}
+
+.nav-tnw-yellow span {
+  font-size: 12px;
+}
+
+.nav-tnw-news {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
+
+.nav-tnw-news a {
+  font-size: 10px;
+}
+
+.nav-company {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+}
+
+.nav-company a {
+  font-size: 10px;
+}
+
+.icons-nav {
+  padding: 5px;
+  position: absolute;
+  right: 8px;
+}
+
+.nav-icons {
+  margin-left: 10px;
+}
+
+.icons-nav-bars {
+  display: none;
+}
+
+.nav-sections-section {
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 5px 5px 0;
+}
+
+.u-clear {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5px 20px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  height: 48px;
+  top: 30px;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+}
+
+.story-header {
+  position: relative;
+  width: 100%;
+  height: 50vw;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle-796x449.jpg");
+  background-size: cover;
+}
+
+.story_img {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.most-popular-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 5px;
+  color: white;
+}
+
+.most-popular-byline {
+  padding: 5px;
+  margin-top: 250px;
+  position: absolute;
+  color: #aaa;
+}
+
+.story-block li {
+  font-size: 12px;
+  color: gray;
+}
+
+h2 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 40px;
+}
+
+.story-block h2 {
+  color: white;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.story-block header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.story-block ul {
+  display: flex;
+  flex-flow: wrap;
+  color: gray;
+}
+
+.icon-byline {
+  height: 0.8em;
+}
+
+.story-block a {
+  color: gray;
+}
+
+.story-block {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(5, 5, 7, 1) 3%,
+      rgba(5, 5, 5, 0) 86%,
+      rgba(0, 0, 0, 0) 100%
+    );
+}
+
+.cover-story {
+  float: left;
+  overflow: hidden;
+  padding: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.cover-image,
+.cover-trigger {
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.cover-image {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 1;
+}
+
+.cover-header {
+  bottom: 4px;
+  left: 4px;
+  padding: 14px 12px;
+  right: 4px;
+  z-index: 3;
+}
+
+.cover-title {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.cover .distraction-title,
+.cover h2 {
+  margin-bottom: 0.25em;
+}
+
+.cover {
+  display: grid;
+  grid-template-areas:
+    "main main top"
+    "main main bottom";
+  grid-gap: 10px;
+  padding: 10px 0 0 10px;
+}
+
+.align-items {
+  display: flex;
+}
+
+.sh-1 {
+  grid-area: main;
+  height: 100%;
+}
+
+.sh-2 {
+  grid-area: top;
+  height: 20vh;
+}
+
+.sh-3 {
+  grid-area: bottom;
+  height: 20vh;
+}
+
+.story--smallMobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.story a {
+  width: 80px;
+}
+
+.story-image {
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 50%;
+  width: 100%;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.story--smallMobile .story-image {
+  left: 0;
+  padding-top: 75px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 180px;
+}
+
+.story--investment {
+  background: #fffaf8;
+}
+
+.story-investmentCard-header {
+  position: relative;
+  display: block;
+}
+
+.story-investmentCard-company-image {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  margin: 10.6666666667px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.story-investmentCard-name {
+  background: #f42;
+  color: #fff;
+  padding: 10px 6px 10.6666666667px 84px;
+  margin: 0;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.story-investmentCard-deets {
+  padding: 1px 16px 1px 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
+}
+
+.story-investmentCard-card {
+  padding: 16px;
+  display: block;
+}
+
+.story-byline {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 1px;
+}
+
+.story--investment .story-byline {
+  margin-top: 0;
+}
+
+.vertical .story-byline {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  margin-top: 1px;
+  padding-top: 1px;
+}
+
+.story-ad {
+  padding: 30px;
+}
+
+.story-investmentCard-bit {
+  padding-left: 2em;
+  position: relative;
+  font-size: 13px;
+  color: #555;
+  margin-right: 1em;
+  display: block;
+  line-height: 22px;
+}
+
+.wrapper {
+  height: 1045px;
+  display: block;
+}
+
+.latest {
+  display: grid;
+  position: absolute;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  grid-gap: 30px;
+  padding: 18px;
+}
+
+.lastest-header {
+  padding: 20px;
+}
+
+.lastest-title {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.deals {
+  margin-top: 50px;
+}
+
+.deals-title a {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  grid-gap: 30px;
+  padding: 18px;
+}
+
+.deals-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.deals-header-founding {
+  display: grid;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.deals-header a {
+  color: orangered;
+}
+
+.deals-title-head a {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.deals-header-more {
+  padding-top: 20px;
+  color: #f42;
+}
+
+.footer-legal {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
+}
+
+.footer-links {
+  background: #131313;
+  padding: 2.5em 0;
+}
+
+.wrapper-footer {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1192px;
+}
+
+.footer-links-social {
+  margin-bottom: 1.5em;
+}
+
+.card-story-content a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.footer-links-menu li {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+}
+
+.footer-legal-logoTNW {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.footer-legal-logoStackPath,
+.footer-legal span {
+  height: 12px;
+}
+
+.footer-links-social li .post-body a strong,
+.footer-links-social li a,
+.post-body a .footer-links-social li strong {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-links-social li a .icon,
+.post-body a .footer-links-social li strong .icon {
+  height: 16px;
+  width: 16px;
+}
+
+.footer-links-menu li .post-body a strong,
+.footer-links-menu li a,
+.post-body a .footer-links-menu li strong {
+  color: #aaa;
+}
+
+.wrapper-footer-tab {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1192px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  grid-gap: 30px;
+  padding: 18px;
+}
+
+.sections {
+  min-width: 300px;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  margin-top: 0;
+}
+
+.most-popular {
+  min-width: 300px;
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/LatestNews/Untitled-design-2021-01-18T133210.706-516x270.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.most-popular-gradient {
+  background-image:
+    linear-gradient(
+      -180deg,
+      rgba(20, 20, 20, 0.2) 0%,
+      rgba(20, 20, 20, 0.8) 80%,
+      rgba(20, 20, 20, 1) 100%
+    );
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.most-popular-head {
+  position: absolute;
+  bottom: 30px;
+  height: auto;
+  max-height: 150px;
+  overflow: hidden;
+  font-size: 11px;
+}
+
+.most-popular-sec {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.most-popular-byline span {
+  font-size: 0.6em;
+  color: gray;
+  margin-right: 10px;
+}
+
+.latest-popular {
+  width: 100%;
+  height: 100px;
+  padding: 20px 120px 20px 20px;
+  background-color: #fff4f2;
+  overflow: hidden;
+  color: orangered;
+  position: relative;
+  margin: 2px 0;
+}
+
+.latest-popular-title {
+  font-size: 1em;
+}
+
+.latest-popular-sec {
+  font-weight: lighter;
+  margin: 3px;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.headline-popular {
+  font-size: 0.8em;
+  padding: 10px 2px;
+  border-bottom: 1px solid gray;
+}
+
+.headline-popular::before {
+  content: "\2022";
+  color: orangered;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 0;
+}
+
+.latest-popular-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("../img/LatestNews/design-app-ui-startup-gq-480x270.png");
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popular-title {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Fire Sans", sans-serif;
+}
+
+.inv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  grid-gap: 30px;
+  padding: 18px;
+}
+
+.inv-tab {
+  display: none;
+}
+
+.card-story {
+  width: 100%;
+  height: auto;
+  background-color: #fffaf8;
+  margin: 10px;
+}
+
+.card-story-wrap {
+  position: relative;
+}
+
+.card-story img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-story-title {
+  width: 100%;
+  height: 40px;
+  background-color: orangered;
+  padding: 10px 20px 10px 80px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-story-name {
+  width: 100%;
+  height: 60px;
+  background-color: #ffebe7;
+  padding: 10px 20px 10px 80px;
+  color: black;
+}
+
+.card-story-name h5 {
+  color: gray;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.card-story-content {
+  width: 100%;
+  height: auto;
+  padding: 25px 20px 10px;
+  border-bottom: 1px solid orange;
+}
+
+.card-story-content span {
+  font-weight: 300;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+.card-story__footer {
+  padding: 20px;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.card-story__footer span {
+  font-weight: inherit;
+  font-size: inherit;
+  color: gray;
+}
+
+.inv-block {
+  margin-top: 20px;
+  display: grid;
+  row-gap: 5px;
+  color: orangered;
+}
+
+.inv-space {
+  margin-left: -10px;
+}

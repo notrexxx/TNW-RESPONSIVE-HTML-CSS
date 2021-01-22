@@ -1,0 +1,744 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+main {
+  padding: 30px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  background: #fff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  height: 48px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.icons-nav {
+  padding: 10px;
+}
+
+.fa-search {
+  padding-right: 10px;
+}
+
+.nav-logo {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.nav-follow,
+.nav-sections,
+.nav-sections-dropdown,
+.nav-tnw {
+  display: none;
+}
+
+.nav-tnw-yellow {
+  background: #fd3;
+  display: flex;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 0 15px 0 26px;
+  justify-content: space-between;
+  top: 47px;
+}
+
+.nav-tnw-yellow span {
+  font-size: 8px;
+}
+
+.nav-mob,
+.nav-mob h5 {
+  color: #fff;
+}
+
+.nav-mob {
+  transition: 0.4s;
+  transform: translateX(100%);
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  height: 100vh;
+  left: 0;
+  padding: 48px 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  will-change: transform;
+  z-index: 997;
+}
+
+.nav-icons {
+  float: right;
+}
+
+.post-body a strong,
+a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.nav-logo > a,
+.post-body a .nav-logo > strong {
+  background-color: #000;
+  display: block;
+  height: 48px;
+  padding: 16px 20px;
+  width: 106px;
+  will-change: height;
+}
+
+.nav-logo-popout {
+  display: none;
+}
+
+.story-header {
+  position: relative;
+  min-width: 300px;
+  height: 50vw;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle-796x449.jpg");
+  background-size: cover;
+  margin-bottom: 8px;
+  z-index: 3;
+}
+
+.story_img {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.story-block h2 {
+  color: white;
+  padding-top: 80px;
+  padding-left: 10px;
+  font-size: 20px;
+  line-height: 1em;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.story-block ul {
+  position: absolute;
+  bottom: 2%;
+  left: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  color: gray;
+}
+
+.icon-byline {
+  height: 0.8em;
+}
+
+.story-block li {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.story-block a {
+  color: gray;
+}
+
+.story-block {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(5, 5, 7, 1) 3%,
+      rgba(5, 5, 5, 0) 86%,
+      rgba(0, 0, 0, 0) 100%
+    );
+}
+
+.cover-story {
+  float: left;
+  overflow: hidden;
+  padding: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.cover-image,
+.cover-trigger {
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.cover-image {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 1;
+}
+
+.cover-header {
+  bottom: 4px;
+  left: 4px;
+  padding: 14px 12px;
+  right: 4px;
+  z-index: 3;
+}
+
+.cover-title {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.cover .distraction-title,
+.cover h2 {
+  margin-bottom: 0.25em;
+}
+
+.story--smallMobile {
+  min-height: 72px;
+  padding-left: 88px;
+  position: relative;
+}
+
+.cover {
+  padding: 7px;
+  margin-top: 50px;
+}
+
+.lastest-header h2 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Fire Sans", sans-serif;
+}
+
+.art-last h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.story-byline {
+  color: #aaa;
+  font-size: 10px;
+  line-height: 18px;
+  padding-top: 4px;
+}
+
+.story-byline li {
+  display: block;
+  float: left;
+}
+
+.story-image {
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 50%;
+  width: 100%;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.story--smallMobile .story-image {
+  left: 0;
+  padding-top: 75px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.art-last {
+  padding: 1px;
+}
+
+.vertical {
+  min-height: 60px;
+  position: relative;
+}
+
+.u-col-xs-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.u-col- {
+  flex: 0 0 auto;
+  padding: 8px;
+  position: relative;
+}
+
+.story--investment {
+  background: #fffaf8;
+}
+
+.story-investmentCard-header {
+  position: relative;
+  display: block;
+}
+
+.story-investmentCard-company-image {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  margin: 10.6666666667px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.story-investmentCard-name {
+  background: #f42;
+  color: #fff;
+  padding: 10px 6px 10.6666666667px 84px;
+  margin: 0;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.story-investmentCard-deets {
+  padding: 1px 16px 1px 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+  margin: 0;
+}
+
+.story-investmentCard-card {
+  padding: 16px;
+  display: block;
+}
+
+.story--investment .story-byline {
+  margin-top: 0;
+}
+
+.story-addPadding {
+  padding: 30px;
+}
+
+.story-investmentCard-bit {
+  padding-left: 2em;
+  position: relative;
+  font-size: 13px;
+  color: #555;
+  margin-right: 1em;
+  display: block;
+  line-height: 22px;
+}
+
+.wrapper {
+  padding: 5px;
+}
+
+.deals-header h2 {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Fire Sans", sans-serif;
+}
+
+.deals-header-more {
+  float: right;
+  line-height: 18px;
+  margin-top: 11px;
+}
+
+.investments {
+  margin: auto;
+  padding: 20px;
+}
+
+.deals-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.deals-header a {
+  color: orangered;
+}
+
+.card-story {
+  width: 100%;
+  height: auto;
+  background-color: #fffaf8;
+}
+
+.card-story-wrap {
+  position: relative;
+}
+
+.card-story img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-story-title {
+  width: 100%;
+  height: 40px;
+  background-color: orangered;
+  padding: 10px 20px 10px 80px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-story-name {
+  width: 100%;
+  height: 60px;
+  background-color: #ffebe7;
+  padding: 10px 20px 10px 80px;
+  color: black;
+}
+
+.card-story-name h5 {
+  color: gray;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.card-story-content {
+  width: 100%;
+  height: auto;
+  padding: 25px 20px 10px;
+  border-bottom: 1px solid orange;
+}
+
+.card-story-content a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card-story-content span {
+  font-weight: 300;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+.card-story__footer {
+  padding: 20px;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.card-story__footer span {
+  font-weight: inherit;
+  font-size: inherit;
+  color: gray;
+}
+
+.inv-block {
+  margin-top: 20px;
+  display: grid;
+  row-gap: 5px;
+  color: orangered;
+}
+
+.inv-tab {
+  display: none;
+}
+
+.inv-grid {
+  margin-top: 20px;
+}
+
+.popular {
+  padding: 20px;
+}
+
+.sections {
+  width: 100%;
+  height: auto;
+  list-style: none;
+  margin-top: 0;
+}
+
+.most-popular {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/LatestNews/Untitled-design-2021-01-18T133210.706-516x270.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.most-popular-gradient {
+  background-image:
+    linear-gradient(
+      -180deg,
+      rgba(20, 20, 20, 0.2) 0%,
+      rgba(20, 20, 20, 0.8) 80%,
+      rgba(20, 20, 20, 1) 100%
+    );
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.most-popular-head {
+  position: absolute;
+  bottom: 30px;
+  height: auto;
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.most-popular-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.most-popular-sec {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.most-popular-byline {
+  position: absolute;
+  bottom: 10px;
+}
+
+.most-popular-byline a {
+  font-size: 0.6em;
+  color: gray;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.most-popular-byline span {
+  font-size: 0.6em;
+  color: gray;
+  margin-right: 10px;
+}
+
+.latest-popular {
+  width: 100%;
+  height: 100px;
+  padding: 20px 120px 20px 20px;
+  background-color: #fff4f2;
+  overflow: hidden;
+  color: orangered;
+  position: relative;
+  margin: 2px 0;
+}
+
+.latest-popular-sec {
+  font-weight: lighter;
+  margin: 3px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.headline-popular {
+  font-size: 0.8em;
+  padding: 10px 2px;
+  border-bottom: 1px solid gray;
+}
+
+.headline-popular::before {
+  content: "\2022";
+  color: orangered;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 0;
+}
+
+.latest-popular-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url("../img/LatestNews/design-app-ui-startup-gq-480x270.png");
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popular-title {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Fire Sans", sans-serif;
+}
+
+.story--deal .story-dealPrice {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  vertical-align: baseline;
+}
+
+.u-row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: 0 auto;
+}
+
+.deals-wrap {
+  padding: 8px;
+}
+
+.deals-title a {
+  font-size: 15px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: orangered;
+}
+
+.story--deal .story-dealPrice-old {
+  text-decoration: line-through;
+  margin-right: 4px;
+}
+
+.footer {
+  text-align: center;
+  position: relative;
+  will-change: transform;
+  z-index: 4;
+}
+
+.footer-links {
+  background: #131313;
+  padding: 2.5em 0;
+}
+
+.footer-legal {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
+}
+
+.wrapper-footer {
+  margin: 0 auto;
+  max-width: 1192px;
+}
+
+.footer-links-social {
+  margin-bottom: 1.5em;
+}
+
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.footer-links-menu li {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+}
+
+.footer-legal-logoTNW {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.footer-legal-logoStackPath,
+.footer-legal span {
+  display: block;
+}
+
+.footer-legal-logoStackPath,
+.footer-legal-logoTNW {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.footer-links-social li .post-body a strong,
+.footer-links-social li a,
+.post-body a .footer-links-social li strong {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-links-social li a .icon,
+.post-body a .footer-links-social li strong .icon {
+  height: 16px;
+  width: 16px;
+}
+
+.footer-links-menu li .post-body a strong,
+.footer-links-menu li a,
+.post-body a .footer-links-menu li strong {
+  color: #aaa;
+}
